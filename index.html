@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="Meddo Hosts file Manager">
+  <meta name="viewport" content="width=device-width">
+  
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/shCore.css">
+  <link rel="stylesheet" href="css/shThemeDefault.css">
+</head>
+<body>
+  <div class="header-container">
+    <header class="wrapper clearfix">
+      <h1 class="title">Meddo</h1>
+      <h2 class="subtitle">/etc/hosts manager for </h2>
+    </header>
+  </div>
+
+  <div class="main-container">
+    <div class="main wrapper clearfix">
+
+      <article>
+        <section class="clearfix">
+          <header>
+            <h2>What</h2>
+          </header>
+          <p class="content">
+            A menu bar app for Mac that lists entries in the /etc/hosts file 
+            and lets you enable and disable them.
+          </p>
+        </section>
+        <section class="clearfix">
+          <header>
+            <h2>Where</h2>
+          </header>
+          <p class="content">
+            <a href="app/current/Meddo.zip" title="Meddo">Download Meddo</a> 
+            or check it out of 
+            <a href="https://github.com/varikin/Meddo" title="Meddo on Github">Github</a>. 
+            If you find a problem, 
+            <a href="https://github.com/varikin/meddo/issues" title="Issues">
+            please let me know</a>.
+          </p>
+        </section>
+        <section class="clearfix">
+          <header>
+            <h2>Why</h2>
+          </header>
+          <p class="content">
+            I have several entries for different staging servers that I need to frequently enable and disable. I wanted this easier.
+          </p>
+        </section>
+        <section class="clearfix">
+          <header>
+            <h2>How</h2>
+          </header>
+          <div class="content">
+            <h3>Reading /etc/hosts</h3>
+            <p>
+              The first part of the app is parsing /etc/hosts.
+              The general idea is to look at a line and determine if it is a
+              comment, host entry, commented out host entry, or blank line.
+              Host entries are grouped into one item by the idea of
+              zero or more comments followed by one or more host entries.
+              Host groups are separated by comments 
+              (not commented out host entries) and blank lines.
+              A name for the group is determined by either 
+              the first non blank comment (octothropes are ignored) or
+              the first host name.
+            </p><p>
+              This works will for my setup, but I am open to enhancements based
+              on anyone elses setup. 
+              Send me a hosts file that is problematic and I will work on it.
+            </p>
+            <p>
+              Currently, Meddo does not watch for changes to /etc/hosts.
+              It reads the file on start.
+              I am working on watching for filesystem changes, but it isn't working yet.
+            <h3>Writing /etc/hosts</h3>
+            <p>
+              /etc/hosts is owned by root. Meddo runs as the user.
+              To handle this issue, Apple provides a way to install helper tools
+              that run as root.
+              Meddo includes a helper tool:
+            </p>
+            <pre>
+  /Library/PrivilegedHelperTools/com.fictitiousnonsense.MeddoHelper
+  /Library/LaunchDaemons/com.fictitiousnonsense.MeddoHelper.plist</pre>
+            <p>  
+              When writing to /etc/hosts, Meddo check the version of the helper
+              and installed a newer version if needed.
+              It does prompt for the user's password at this time.
+              All the helper does is write the file and send/recieve messages
+              about writing the file.
+              Everything else is done executed as the user.
+            </p>
+          </div>
+
+        </section>
+        <section class="clearfix">
+          <header>
+            <h2>Who</h2>
+          </header>
+          <p class="content">
+            My name is John Shimek. I can found on 
+            <a href="https://twitter.com/varikin" title="Twitter">Twitter</a>,
+            <a href="https://github.com/varikin" title="Github">Github</a>, and
+            <a href="mailto:varikin@gmail.com" title="Email">Email</a>
+            and many other places as Varikin.
+            If you have any questions or comments, please let me know.
+          </p>
+        </section>
+      </article>
+    </div> <!-- #main -->
+  </div> <!-- #main-container -->
+  <script>
+  var _gaq=[['_setAccount','UA-36189499-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>

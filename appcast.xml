@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>Changelog</title>
+  <link>http://meddo.fictitiousnonsense.com/app/appcast.xml</link>
+  <description>Initial release</description>
+  <language>en</language>
+     <item>
+        <title>Initial release</title>
+        <pubDate>Tue, 13 Nov 2012, 16:23 -0600</pubDate>
+        <enclosure url="http://meddo.fictitiousnonsense.com/app/0.1/Meddo.zip" sparkle:version="0.1" length="1342059" type="application/octet-stream" sparkle:dsaSignature="MCwCFDMIyIj815vNJz992EMCmXO9h9gMAhQTbW/CusU/+R+lpNhOEzQAm8FWrA==" />
+     </item>
+</channel>
+</rss>

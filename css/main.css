@@ -1,0 +1,211 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 18px "Goudy Bookletter 1911", serif;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    background: #f16529;
+    color: white;
+    text-align: center;
+}
+
+.subtitle {
+    font: 2em "Raleway Thin";
+}
+
+.title {
+    font: 6em "Raleway Thin";
+    margin-bottom: 0;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+
+
+.main article section header h2 {
+    font: 2em "Raleway Thin";
+    line-height: 2em;
+    margin-bottom: 1em;
+    background: #f16529;
+    color: white;
+    padding: 4px 4px 0 4px;
+}
+
+.main article section h3 {
+    font: 1.3em "Raleway Thin";
+    margin-top: 0.1em;
+}
+
+pre {
+    font-family: "Menlo", "Consolas", "Bitstream Vera Sans Mono", monospace;
+    font-size: 0.8em;
+    background: #f16529;
+    color: white;
+    padding: 8px;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+    font-family: "Raleway Thin";
+    src: url("/fonts/Raleway-Thin.otf");
+}
+
+@font-face {
+    font-family: "Goudy Bookletter 1911";
+    src: url("/fonts/GoudyBookletter1911.otf");
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 768px) {
+
+    .main article section header {
+        float: left; 
+    }
+
+    .main article section .content {
+        margin-top: 3.4em;
+        float: right;
+        width: 80%;
+    }
+
+    .wrapper {
+        width: 768px;
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
