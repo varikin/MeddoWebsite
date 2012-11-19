@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel>
-  <title>Changelog</title>
-  <link>http://meddo.fictitiousnonsense.com/app/appcast.xml</link>
-  <description>Initial release</description>
-  <language>en</language>
-     <item>
-        <title>Initial release</title>
-        <pubDate>Tue, 13 Nov 2012, 16:23 -0600</pubDate>
-        <enclosure url="http://meddo.fictitiousnonsense.com/app/0.1/Meddo.zip" sparkle:version="0.1" length="1330634" type="application/octet-stream" sparkle:dsaSignature="MC0CFAKqJsekiA5LNfcXGhF5+A9vJXY4AhUAm8XmfD77kxe4u7qU6pDz/75lHOE=" />
-     </item>
- </channel>
-<channel>
-  <title>Changelog</title>
-  <link>http://meddo.fictitiousnonsense.com/app/appcast.xml</link>
-  <description>Second release</description>
-  <language>en</language>
-     <item>
-        <title>Second release</title>
-        <pubDate>Tue, 13 Nov 2012, 23:06 -0600</pubDate>
-        <enclosure url="http://meddo.fictitiousnonsense.com/app/0.2/Meddo.zip" sparkle:version="0.2" length="1330638" type="application/octet-stream" sparkle:dsaSignature="MCwCFEs0E0c4uaTwsvlicDFcZ0FBG+YjAhQVevyxLeziMPz4zQIcVbJdHTxrbw==" />
-     </item>
-</channel>
+    <channel>
+      <title>Changelog</title>
+      <link>http://meddo.fictitiousnonsense.com/app/appcast.xml</link>
+      <description>Initial release</description>
+      <language>en</language>
+         <item>
+            <title>Initial release</title>
+            <pubDate>Tue, 13 Nov 2012, 16:23 -0600</pubDate>
+            <enclosure url="http://meddo.fictitiousnonsense.com/app/0.1/Meddo.zip" sparkle:version="0.1" length="1330634" type="application/octet-stream" sparkle:dsaSignature="MC0CFAKqJsekiA5LNfcXGhF5+A9vJXY4AhUAm8XmfD77kxe4u7qU6pDz/75lHOE=" />
+         </item>
+     </channel>
+    <channel>
+      <title>Changelog</title>
+      <link>http://meddo.fictitiousnonsense.com/app/appcast.xml</link>
+      <description>Second release</description>
+      <language>en</language>
+         <item>
+            <title>Second release</title>
+            <pubDate>Tue, 13 Nov 2012, 23:06 -0600</pubDate>
+            <enclosure url="http://meddo.fictitiousnonsense.com/app/0.2/Meddo.zip" sparkle:version="0.2" length="1330638" type="application/octet-stream" sparkle:dsaSignature="MCwCFEs0E0c4uaTwsvlicDFcZ0FBG+YjAhQVevyxLeziMPz4zQIcVbJdHTxrbw==" />
+         </item>
+    </channel>
+    <channel>
+        <title>Meddo 0.3</title>
+        <link>http://meddo.fictitiousnonsense.com/app/appcast.xml</link>
+        <description>Meddo now watches the filesystem for changes.</description>
+        <language>en</language>
+         <item>
+            <title>Meddo 0.3</title>
+            <pubDate>Sun, 18 Nov 2012, 19:10 -0600</pubDate>
+            <enclosure url="http://meddo.fictitiousnonsense.com/app/0.3/Meddo.zip" sparkle:version="0.3" length="1330970" type="application/octet-stream" sparkle:dsaSignature="MCwCFDX1wc14JcXGzLadLI0LiQLEtReEAhQ2jbIATvrH1P3KvevrMvsjB2K+rQ==" />
+         </item>
+    </channel> 
+
 </rss>
