@@ -21,7 +21,18 @@
             ]]></description>
             <pubDate>Sun, 18 Nov 2012, 19:10 -0600</pubDate>
             <enclosure url="http://meddo.fictitiousnonsense.com/app/0.3/Meddo.zip" sparkle:version="0.3" length="1330970" type="application/octet-stream" sparkle:dsaSignature="MCwCFDX1wc14JcXGzLadLI0LiQLEtReEAhQ2jbIATvrH1P3KvevrMvsjB2K+rQ==" />
-         </item>
+        </item>
+        <item>
+            <title>Meddo 0.3.1</title>
+            <description><![CDATA[
+                0.3.1: Added version number display on the prefernce window.
+                0.3: Meddo now watches the filesystem for changes.
+                0.2: Testing version bump and auto updating.
+                0.1: Initial release
+            ]]></description>
+            <pubDate>Tue, 20 Nov 2012, 20:20 -0600</pubDate>
+            <enclosure url="http://meddo.fictitiousnonsense.com/app/0.3.1/Meddo.zip" sparkle:version="0.3.1" length="1331680" type="application/octet-stream" sparkle:dsaSignature="MCwCFFKz7n6cIm5FONHx4/AJfuB/GW0AAhQ+c/wVNNmt+oMiRR29o0WxrF+o1w==" />
+     </item>
     </channel> 
 
 </rss>
